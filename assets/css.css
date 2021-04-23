@@ -1,0 +1,327 @@
+body{
+    width: 720px;
+    max-width: 720px;
+    /*max-height: 1280px;*/
+    margin: 20px auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid black;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.stretch-items {
+    align-items: stretch;
+}
+
+.flex-start-items {
+    align-items: flex-start;
+}
+
+.flex-end-items {
+    align-items: flex-end;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.baseline-items {
+    align-items: baseline;
+}
+
+.stretch-content {
+    align-content: stretch;
+}
+
+.flex-start-content {
+    align-content: flex-start;
+}
+
+.flex-end-content {
+    align-content: flex-end;
+}
+
+.center-content {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between-content {
+    align-content: space-between;
+}
+
+.space-around-content {
+    align-content: space-around;
+}
+
+header ul{
+    list-style: none;
+    background-color: #219653;
+    margin: 0;
+    padding: 10px 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 20px 40px 20px 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+header ul .adicionar{
+    float: right;
+}
+
+footer{
+    margin-top:10px;
+}
+
+footer ul{
+    list-style: none;
+    background-color: #219653;
+    margin: 0;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 20px 40px 20px 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.buttons{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+
+    background-color: #219653;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid black;
+    font-size: 2rem;
+    padding: 20px;
+    margin:0 15px;
+    width: 50%;
+}
+
+.buttons a{
+    background-color: #219653;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid black;
+    font-size: 2rem;
+    padding: 20px;
+    margin:0 10px;
+    width: 50%;
+}
+
+.buttons input{
+    background-color: #219653;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid black;
+    font-size: 2rem;
+    padding: 20px;
+    margin:0 15px;
+    width: 50%;
+}
+
+
+.buttons .active{
+    background-color: green;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    padding: 50px 0;
+    width: 80%;
+}
+
+.inputs{
+    padding: 20px;
+}
+
+.inputs label{
+    padding-left: 3px;
+    font-size: 1.5rem;
+}
+
+.inputs input{
+    width: 95%;
+    padding: 15px;
+    margin: 2px 0 25px auto;
+    font-size: 2rem;
+}
+
+.inputs select{
+    padding: 15px;
+    margin: 3px 0 25px auto;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.inputs .listCpfCro label{
+    display: inline-block;
+}
+.inputs .listCpfCro #labelCpf{
+    width: 73.7%;
+    margin-right: 10px;
+
+}
+
+.inputs .listCpfCro #labelCro{
+    width: 20%;
+}
+
+.inputs .listCpfCro label input{
+    margin: 3px 3px 25px 0;
+}
+
+.inputs .listBairroNumero label{
+    display: inline-block;
+}
+.inputs .listBairroNumero #labelBairro{
+    width: 75%;
+}
+
+.inputs .listBairroNumero #labelNumero{
+    width: 20%;
+}
+
+.inputs .listBairroNumero label input{
+    text-align: center;
+    margin: 3px 0 25px 0px;
+}
+.inputs .listBairroNumero label select{
+    margin: 3px 0 25px 0px;
+}
+
+
+.inputs .listTabelaPreco{
+    display: flex;
+    width: 100%;
+
+}
+
+.inputs .listTabelaPreco label{
+}
+
+.inputs .listTabelaPreco input{
+    display: block;
+    margin: 5px 0 25px 0px;
+    width: 2.7em;
+
+}
+.inputs .listTabelaPreco select{
+    display: block;
+    margin: 5px 0 25px 0px;
+    width: 11.8em;
+
+}
+
+.listItemCadastro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.itemCadastro{
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: #C4C4C4;
+    width: 280px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.iconAdd{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.datasServico{
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 98%;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: flex-start;
+    padding: 3px;
+}
+
+.container .item:nth-child(1){
+    width: 10%;
+
+}
+.container .item:nth-child(2){
+    width: 60%;
+}
+.container .item:nth-child(3){
+    width: 30%;
+}
+.container .item{
+    padding: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #C4C4C4;
+}
+
+.container .item .subItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44%;
+    padding: 3px;
+}
+
+.container .item .subItem:nth-child(1){
+   border-bottom: 2px solid black;
+}
+
+ select[readonly] {
+     background: #eee;
+     pointer-events: none;
+     touch-action: none;
+ }
+
+input[readonly]{
+    background: #eee;
+    pointer-events: none;
+    touch-action: none;
+}

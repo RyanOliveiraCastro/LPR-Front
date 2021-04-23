@@ -1,0 +1,24 @@
+{
+  "name": "lpr",
+  "description": "lpr",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Ryan Oliveira",
+      "email": "ryanocastro@hotmail.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "LPR\\": "src/"
+    },
+    "files": [
+      "src/Config.php",
+      "src/JsonMapper.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*"
+  }
+}
